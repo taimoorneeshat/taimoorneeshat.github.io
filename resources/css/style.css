@@ -1,0 +1,26 @@
+body {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.single-view {
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+}
+
+.single-view main {
+    flex-grow: 1;
+}
+
+.hero {
+    color: white;
+    background-image: url(/resources/images/home-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+}
+
+.hero h1 {
+    font-weight: 600;
+}
